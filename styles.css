@@ -1,0 +1,95 @@
+header {
+  background-color: #282C34;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  background-color: #466C88;
+  border-radius: 50%;
+}
+h1, h2 {
+  font-family: 'Bungee', serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header h1 {
+  margin: 0;
+  font-size: 50px;
+  transition: color 0.7s linear;
+}
+header h1:hover {
+  color: #FFE26E;
+}
+}
+aside {
+  background-color: #282C34;
+  color: #F6CE30;
+}
+aside ul li a {
+  font-size: 28px;
+  color: #F6CE30;
+  transition: color 1s;
+  cursor: pointer;
+  font-family: 'Bungee', serif;
+  text-decoration: none;
+}
+aside ul li a:hover {
+  color: #82bef5;
+}
+main {
+  background-color: #82bef5;
+}
+main h2 {
+  color: white;
+  transition: color 0.7s ease-in;
+}
+main h2:hover {
+  color: #F6CE30;
+}
+footer {
+  background-color: #282C34;
+  color: #fff;
+  font-family: 'Bungee', serif;
+  font-size: 28px;
+}
+#social-media a img {
+  width: 35px;
+  padding: 1.5%;
+  transition: color 1s;
+  cursor: pointer;
+}
+#social-media a img svg {
+  color: pink;
+}
+#social-media a img:hover {
+  color: black;
+}
+.container {
+  overflow: hidden;
+  background-color: #466C88;
+}
+main {
+  background-color: #82bef5;
+  width: 72%;
+  float: left;
+}
+aside {
+  background-color: #466C88;
+  width: 20%;
+  float: left;
+}
+@media all and (max-width: 850px) {
+  main, aside {
+    width: 100%
+  }
+  section {
+    padding-right: 20px;
+    padding-left: 20px
+  }
+}
